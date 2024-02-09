@@ -2,18 +2,20 @@
 ; BIND data for oscar.local
 ;
 $TTL	604800
-@	IN	SOA	opf-used.oscar.local. oscar.pasfer.educajcyl.es. (
+@	IN	SOA	opf-ldap.oscar.local. oscar.pasfer.educajcyl.es. (
 			      1		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			   3600 )       ; Negative Cache TTL
 ;
-@		IN	NS	opf-used.oscar.local.
+@		IN	NS	opf-ldap.oscar.local.
 ; Registros Host
 @		IN	A	192.168.3.212
 opf-used	IN	A	192.168.3.212
+opf-ldap	IN	A 	192.168.3.112
 ; Registros Alias
 daw201		IN	CNAME	opf-used.oscar.local.
 daw202		IN	CNAME	opf-used.oscar.local.
 daw212		IN	CNAME	opf-used.oscar.local.
+login		IN	CNAME	opf-used.oscar.local.

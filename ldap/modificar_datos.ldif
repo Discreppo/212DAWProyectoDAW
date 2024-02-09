@@ -1,0 +1,13 @@
+#añadir el movil al usuario oscar
+dn: uid=oscar,ou=superior,dc=oscar,dc=local
+add: mobile
+Mobile: 675086729
+
+dn: uid=amor,ou=superior,dc=oscar,dc=local
+delete:mail
+
+dn: uid=amor,ou=superior,dc=oscar,dc=local
+changetype: modify
+replace: mail
+mail: amor@gmail.com
+

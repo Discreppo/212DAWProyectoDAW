@@ -1,0 +1,16 @@
+;
+; BIND data for 3.168.192.in-addr.arpa
+;
+$TTL	604800
+@	IN	SOA	rsp-ldap.oscar.local. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			   3600 )	; Negative Cache TTL
+;
+@		IN	NS	rsp-ldap.oscar.local.
+;Registros punteros o pointers
+212 	IN	PTR	rsp-used.oscar.local.
+212		IN	PTR	oscar.local.
+112		IN	PTR	rsp-ldap.oscar.local.
