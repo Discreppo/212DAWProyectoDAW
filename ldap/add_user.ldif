@@ -1,0 +1,30 @@
+#################################
+###
+###
+### Alta de usuarios
+###
+######################
+#  Usuarios oscar de la unidad organizativa superior
+dn: uid=oscar,ou=superior,dc=oscar,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+uid: oscar
+sn: pascual
+cn: oscar
+mail: oscar@oscar.local
+userPassword: paso
+
+# Usuarios amor de la unidad organizativa superior
+dn: uid=amor,ou=superior,dc=oscar,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+uid: amor
+sn: rodriguez
+cn: amor
+mail: amor@amor.local
+userPassword: paso
+

@@ -27,7 +27,7 @@
     <main>
         <!-- Contenido principal de tu sitio web -->
         <p>Cosas:</p>
-        <a href="doc/aunNoHayDocuments.pdf" target="_blank">Documentacion</a>
+        <a href="doc/EstudioTema2.pdf" target="_blank">Documentacion</a>
         
         
     </main>
